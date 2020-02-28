@@ -183,6 +183,17 @@
 
 @media screen and (min-width:993px) {
 
+  [class*="col-"] {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    float: left;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
   .col-lg-1{
     width: calc((100%/12)*1);
   }
